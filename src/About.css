@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.About {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(17, 17, 17, 0.472),
+      rgba(73, 73, 73, 0.568)
+    ),
+    url("https://hdwallsource.com/img/2020/9/fortnite-wallpaper-71255-73700-hd-wallpapers.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(219, 217, 217);
+  line-height: 1.2;
+  letter-spacing: 3px;
+}

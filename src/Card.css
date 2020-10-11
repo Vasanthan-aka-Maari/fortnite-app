@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-wrapper {
+  padding: 20px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: rgb(224, 224, 224);
+  width: 30rem;
+  height: 25rem;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 1.3rem;
+  z-index: 2;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-name {
+  font-size: 2.5rem;
+  color: #fbf7f0;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.card-rating {
+  font-size: 1.3rem;
+}
