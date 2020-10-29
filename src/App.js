@@ -3,7 +3,7 @@ import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
 import Shop from "./Shop";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const style = {
