@@ -10,7 +10,7 @@ function About() {
         <Link to="/shop" style={{ color: "#fff", textDecoration: "none" }}>
           SHOP
         </Link>{" "}
-        page <br /> to view new items
+        page <br />
       </p>
     </div>
   );
